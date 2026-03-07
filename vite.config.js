@@ -7,5 +7,5 @@ export default defineConfig({
 
         tailwindcss(),
     ],
-    base: "./", // Use ./ instead of /restaurant-0/
+    base: "restaurant-gsap", // Use ./ instead of /restaurant-0/
 })
