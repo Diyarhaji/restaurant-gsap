@@ -7,5 +7,5 @@ export default defineConfig({
 
         tailwindcss(),
     ],
-      // Use ./ instead of /restaurant-0/
+    base: "./", // Use ./ instead of /restaurant-0/
 })
