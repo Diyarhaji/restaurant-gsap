@@ -4,7 +4,7 @@ import React, {useRef,useState} from 'react'
 import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
 import { SplitText } from "gsap/all"
-
+import Leaft from "/images/slider-left-leaf.png"
 import {allCocktails} from "../constants/index.js";
 import {useMediaQuery} from "react-responsive";
 const Menu = () => {
@@ -41,7 +41,7 @@ const Menu = () => {
     const nextCocktail= getCocktailAt(1)
     return (
         <section id="menu" aria-labelledby="menu-heading" >
-            <img  src="/images/slider-left-leaf.png" alt="left-leaf" id="m-left-leaf"/>
+            <img  src={Leaft} alt="left-leaf" id="m-left-leaf"/>
             <img  src="/images/slider-right-leaf.png" alt="right-leaf" id="m-right-leaf"/>
 
             <h2 id="menu-heading" className="sr-only">Cocktails Menu</h2>
