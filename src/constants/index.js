@@ -2,7 +2,9 @@ import Drink1 from "/images/drink1.png";
 import Drink2 from "/images/drink2.png";
 import Drink3 from "/images/drink3.png";
 import Drink4 from "/images/drink4.png";
-
+import InstaIcon from "/images/insta.png";
+import XIcon from "/images/x.png";
+import FacebookIcon from "/images/fb.png";
 
 const navLinks = [
     {
@@ -122,25 +124,27 @@ const openingHours = [
     { day: "Sun", time: "9:00am – 1am" },
 ];
 
-const socials = [
+
+
+  const socials = [
     {
         name: "Instagram",
-        icon: "/images/insta.png",
+        icon: InstaIcon,
         url: "#",
     },
     {
         name: "X (Twitter)",
-        icon: "/images/x.png",
+        icon: XIcon,
         url: "#",
     },
     {
         name: "Facebook",
-        icon: "/images/fb.png",
+        icon: FacebookIcon,
         url: "#",
     },
 ];
 
-export const allCocktails = [
+  const allCocktails = [
     {
         id: 1,
         name: "Classic Mojito",
